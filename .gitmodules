@@ -1,0 +1,6 @@
+[submodule "apps/reunion-api"]
+	path = apps/api
+	url = git@github.com:rllcoelho/reunion-api.git
+[submodule "apps/ReunionApp"]
+	path = apps/mobile
+	url = git@github.com:rllcoelho/ReunionApp.git
