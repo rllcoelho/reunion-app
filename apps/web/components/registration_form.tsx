@@ -17,7 +17,6 @@ export default function RegistrationForm() {
     e.preventDefault();
 
     try {
-        debugger;
       await register({
         email: formData.email,
         password: formData.password,
@@ -29,7 +28,6 @@ export default function RegistrationForm() {
       console.log("Registration successful!");
     } catch (error) {
       // Error is handled by the hook
-      debugger;
       console.error("Registration failed:", error);
     }
   };
