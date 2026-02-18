@@ -32,7 +32,6 @@ class ApiClient {
       ...options,
       headers,
     };
-    debugger;
     const response = await fetch(url, config);
 
     if (!response.ok) {
